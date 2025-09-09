@@ -39,5 +39,12 @@ By combining Large Language Models (LLM) with semantic retrieval over tabular da
 4. LLM Inference → Query handled by GroqCloud LLaMA for natural language response.
 5. User Interface → Streamlit app for real-time chatbot interaction.
 
+## Instalation
+
+1. After cloning this repository, please create a folder named "ytta" or any name you like in order to store secret.toml file (this is where API KEY located)
+2. Create credentials.json in order to get access to database and table from BigQuery. link: https://docs.google.com/document/d/10Q3JamUmVbxALnET7m_f_VZp0J1BukoHVmLIk0AWWuo/edit?usp=sharing
+3. Create virtual environment
+4. Install all requirements with pip install -r requirements.txt
+5. Run the streamlit application
 
 
